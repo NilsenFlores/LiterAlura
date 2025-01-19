@@ -14,5 +14,9 @@ El proyecto ofrece las siguientes opciones al usuario:
 
 ## Tecnologías
 - **Spring Framework**: Para la gestión de la aplicación y la base de datos.
+- **PostgreSQL**: Base de datos utilizada para almacenar los libros y autores registrados.
 - **Jackson Databind**: Para manejar la conversión entre los datos JSON recibidos de la API y los objetos Java.
 - **JPQL (Java Persistence Query Language)**: Para realizar consultas a la base de datos.
+
+## A considerar
+- No olvides crear tu base de datos y colocar los datos correpondietes en **application.properties**
